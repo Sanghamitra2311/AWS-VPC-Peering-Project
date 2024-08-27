@@ -27,7 +27,7 @@ This project aims at understanding AWS peering connnection between two VPC's in 
 
 9. Create an Ubuntu Ec2 instance by selecting our VPC and subnet in Network settings.
 
-   10.Next creating internet gateway and route table to make it publically accessable.
+10.Next creating internet gateway and route table to make it publically accessable.
 
 10. Same way we will follow for "Prod VPC" by creating yet another VPC. ANd giving IP address as "192.0.0.0/16" .
 
@@ -46,3 +46,10 @@ This project aims at understanding AWS peering connnection between two VPC's in 
 17. Then the last process will be to allow ICMP in the security groups of both the test and prod Server.
 
 18. After doing this, when we try to ping the servers from test-prod / prod-test , there is no data loss & the packets are transferring.
+
+ ![image](https://github.com/user-attachments/assets/0126a889-d6af-42f1-9819-3f2e2d86a7ef)
+
+ ![image](https://github.com/user-attachments/assets/d8aac2ca-3110-429b-b9c3-d29893d2e484)
+
+
+
